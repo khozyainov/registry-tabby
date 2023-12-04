@@ -90,7 +90,15 @@
   - https://huggingface.co/TheBloke/deepseek-coder-6.7B-base-GGUF/resolve/main/deepseek-coder-6.7b-base.Q8_0.gguf
   sha256: a2f82242ac5e465037cbf1ed754f04f0be044ee196e1589905f9e4dcd0e6559d
 
-- name: DeepseekCoder-6.7B-instruct
+- name: DeepseekCoder-6.7B-instruct_Q4_K_M
+  <<: *deepseek-series
+  provider_url: https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF
+
+  urls:
+  - https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF/resolve/main/deepseek-coder-6.7b-instruct.Q4_K_M.gguf
+  sha256: 92da6238854f2fa902d8b2ad79d548536af1d3ab06821f323bd5bbcea2013276
+
+- name: DeepseekCoder-6.7B-instruct_Q5_K_M
   <<: *deepseek-series
   provider_url: https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF
 
