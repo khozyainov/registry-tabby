@@ -16,7 +16,8 @@ We recommend using
 | [khozyainov/CodeLlama-13B](https://huggingface.co/codellama/CodeLlama-13b-hf) | [Llama 2](https://github.com/facebookresearch/llama/blob/main/LICENSE) |
 | [khozyainov/DeepseekCoder-1.3B](https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-base) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
 | [khozyainov/DeepseekCoder-6.7B](https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
-| [khozyainov/DeepseekCoder-6.7B-instruct](https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
+| [khozyainov/DeepseekCoder-6.7B-instruct_Q4_K_M](https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
+| [khozyainov/DeepseekCoder-6.7B-instruct_Q5_K_M](https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
 
 
 ## Chat models (`--chat-model`)
