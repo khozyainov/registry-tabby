@@ -18,6 +18,8 @@ We recommend using
 | [khozyainov/DeepseekCoder-6.7B](https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
 | [khozyainov/DeepseekCoder-6.7B-instruct_Q4_K_M](https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
 | [khozyainov/DeepseekCoder-6.7B-instruct_Q5_K_M](https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
+| [khozyainov/DeepseekCoder-6.7B-instruct_Q5_0](https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
+| [khozyainov/DeepseekCoder-6.7B-instruct_Q8_0](https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
 
 
 ## Chat models (`--chat-model`)
