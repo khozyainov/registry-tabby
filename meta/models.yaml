@@ -93,7 +93,7 @@
 - name: DeepseekCoder-6.7B-instruct_Q4_K_M
   <<: *deepseek-series
   provider_url: https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF
-
+  chat_template: "You are an AI programming assistant, utilizing the DeepSeek Coder model, developed by DeepSeek Company, and you only answer questions related to computer science. Below is an instruction that describes a task. Write a response that appropriately completes the request.\n{% for message in messages %}{% if (message['role'] == 'user') != (loop.index0 % 2 == 0) %}{{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }}{% endif %}{% if message['role'] == 'user' %}{{ '### Instruction:\n' + message['content'] + '\n### Response:\n' }}{% elif message['role'] == 'assistant' %}{{ message['content'] + '\n' }}{% else %}{{ raise_exception('Only user and assistant roles are supported!') }}{% endif %}{% endfor %}"
   urls:
   - https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF/resolve/main/deepseek-coder-6.7b-instruct.Q4_K_M.gguf
   sha256: 92da6238854f2fa902d8b2ad79d548536af1d3ab06821f323bd5bbcea2013276
@@ -101,6 +101,7 @@
 - name: DeepseekCoder-6.7B-instruct_Q5_K_M
   <<: *deepseek-series
   provider_url: https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF
+  chat_template: "You are an AI programming assistant, utilizing the DeepSeek Coder model, developed by DeepSeek Company, and you only answer questions related to computer science. Below is an instruction that describes a task. Write a response that appropriately completes the request.\n{% for message in messages %}{% if (message['role'] == 'user') != (loop.index0 % 2 == 0) %}{{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }}{% endif %}{% if message['role'] == 'user' %}{{ '### Instruction:\n' + message['content'] + '\n### Response:\n' }}{% elif message['role'] == 'assistant' %}{{ message['content'] + '\n' }}{% else %}{{ raise_exception('Only user and assistant roles are supported!') }}{% endif %}{% endfor %}"
 
   urls:
   - https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF/resolve/main/deepseek-coder-6.7b-instruct.Q5_K_M.gguf
@@ -109,6 +110,7 @@
 - name: DeepseekCoder-6.7B-instruct_Q5_0
   <<: *deepseek-series
   provider_url: https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF
+  chat_template: "You are an AI programming assistant, utilizing the DeepSeek Coder model, developed by DeepSeek Company, and you only answer questions related to computer science. Below is an instruction that describes a task. Write a response that appropriately completes the request.\n{% for message in messages %}{% if (message['role'] == 'user') != (loop.index0 % 2 == 0) %}{{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }}{% endif %}{% if message['role'] == 'user' %}{{ '### Instruction:\n' + message['content'] + '\n### Response:\n' }}{% elif message['role'] == 'assistant' %}{{ message['content'] + '\n' }}{% else %}{{ raise_exception('Only user and assistant roles are supported!') }}{% endif %}{% endfor %}"
 
   urls:
   - https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF/resolve/main/deepseek-coder-6.7b-instruct.Q5_0.gguf
@@ -117,6 +119,7 @@
 - name: DeepseekCoder-6.7B-instruct_Q8_0
   <<: *deepseek-series
   provider_url: https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF
+  chat_template: "You are an AI programming assistant, utilizing the DeepSeek Coder model, developed by DeepSeek Company, and you only answer questions related to computer science. Below is an instruction that describes a task. Write a response that appropriately completes the request.\n{% for message in messages %}{% if (message['role'] == 'user') != (loop.index0 % 2 == 0) %}{{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }}{% endif %}{% if message['role'] == 'user' %}{{ '### Instruction:\n' + message['content'] + '\n### Response:\n' }}{% elif message['role'] == 'assistant' %}{{ message['content'] + '\n' }}{% else %}{{ raise_exception('Only user and assistant roles are supported!') }}{% endif %}{% endfor %}"
 
   urls:
   - https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF/resolve/main/deepseek-coder-6.7b-instruct.Q8_0.gguf
